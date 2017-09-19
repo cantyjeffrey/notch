@@ -33,6 +33,10 @@ injectGlobal`
 
   #root {
     flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7f7f7;
   }
 
   @media screen and (min-aspect-ratio: 2/3) {
